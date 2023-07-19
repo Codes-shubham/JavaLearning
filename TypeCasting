@@ -1,0 +1,19 @@
+public class Main {
+  public static void main(String[] args) {
+      
+      //widening Type Casting
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);
+    System.out.println(myDouble);
+    
+    
+    //Narrow type Casting
+    double myDouble1 = 9.78d;
+    int myInt1 = (int) myDouble1; // Explicit casting: double to int
+
+    System.out.println(myDouble1);
+    System.out.println(myInt1);
+  }
+}
